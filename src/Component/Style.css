@@ -1,0 +1,128 @@
+.toDoList {
+    width: 440px;
+    box-shadow: 0px 0px 2px #474545;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+    max-height: 80vh;
+    overflow: scroll;
+
+}
+
+.toDoList h1 {
+    text-align: center;
+    background-color: rgb(65, 194, 61);
+    color: #fff;
+    padding: 12px 0px;
+}
+
+/* NavBar */
+
+.navBar {
+    margin: 30px 0px;
+    text-align: center;
+
+}
+
+.navBar .navBarLink {
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid rgb(199, 197, 197);
+    cursor: pointer;
+    color: rgb(114, 83, 185);
+}
+
+.navBar .navBarLink:hover {
+    background-color: #eee;
+}
+
+.navBar a.active {
+    color: rgb(65, 194, 61);
+    background-color: #d8d7d7;
+
+}
+
+/* Task */
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    padding: 12px;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.task:hover {
+    padding: 22px 12px;
+}
+
+.task .text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.task .text p {
+    font-size: 12px;
+}
+
+.task .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.task .icons i {
+    font-size: 26px;
+    cursor: pointer;
+    /* color: #1769aa; */
+}
+
+.isCompleted {
+    color: rgb(71, 177, 71);
+
+}
+
+
+
+.icons .fa-pen:hover {
+    color: rgb(35, 0, 92);
+}
+
+.icons .fa-trash:hover {
+    color: rgb(224, 32, 32);
+}
+
+/* List Task */
+.listTask {
+    width: 100%;
+}
+
+/* Add Task */
+.addTask {
+    display: flex;
+    width: 100%;
+}
+
+.addTask button {
+    padding: 12px 30px;
+    background-color: rgb(65, 194, 61);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.addTask input {
+    padding: 12px 12px;
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+    border: 2px solid rgb(65, 194, 61);
+    ;
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: alexandra;
+}
+
+@font-face {
+    font-family: alexandra;
+    src: url('/public/fonts/Alexandria-Regular.ttf');
+}
+
+.app {
+    background-color: #191b1f;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
