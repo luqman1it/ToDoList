@@ -11,9 +11,9 @@ export default function ToDoList() {
             <h1>مهامي</h1>
             <NavBar />
             <Routes>
-                <Route path='/todolist' element={<ListTask />} />
-                <Route path='/todolist/completed' element={<Completed />} />
-                <Route path='/todolist/nocompleted' element={<NoCompleted />} />
+                <Route path='/' element={<ListTask />} />
+                <Route path='/completed' element={<Completed />} />
+                <Route path='/nocompleted' element={<NoCompleted />} />
             </Routes>
             {/* <ListTask /> */}
 
